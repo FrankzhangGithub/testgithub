@@ -1,11 +1,13 @@
 
  
- <body>
+ <%@page import="org.apache.jasper.tagplugins.jstl.core.Out"%>
+<body>
     welcome to Eclipse for J2EE Developer Center 
     <%!
        public int add(int a,int b)
     {
-return a+b;    	
+    
+return a+b+1;    
     }
     %>
     <% 
